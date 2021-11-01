@@ -20,13 +20,7 @@ class HashTable {
     }
 
     resizeArr() {
-        console.log("Resizing Array to Length: " + this.arr.length * 2);
         const newArr = new Array(this.arr.length * 2);
-        console.log(newArr[0]);
-        console.log(newArr[1]);
-        console.log(newArr[2]);
-        console.log(newArr[3]);
-        console.log(newArr[4]);
         this.arr.forEach(item => {
             if(item !== null) {
                 let current = item.head;
