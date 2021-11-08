@@ -91,7 +91,7 @@ class HashTable {
             if(current.key === _key) {
                 return current.data;
             } else {
-                current = current.next();
+                current = current.next;
             }
         }
         // Step 5: If KVP not found in LinkedList return false
@@ -106,7 +106,7 @@ class HashTable {
         if(this.arr[index] === null) {
             return false;
         } else {
-            return this.table[index] = null;
+            return this.arr[index] = null;
         }
     }
 }
