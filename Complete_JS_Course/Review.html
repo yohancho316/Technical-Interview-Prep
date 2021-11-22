@@ -1,0 +1,48 @@
+<!-- An HTML file instructs the web browser how the web page should be presented to the end-user. -->
+<!-- HTML Page Structure:  -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> My First Web Page </title>
+    <meta name="description" content="Page Description Here"/>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!--    How to Import an External JavaScript File   -->
+    <script src="tutorial.js"></script>
+</head>
+<body>
+    <!--  To separate text on different lines use the <p> </p> HTML tag  -->
+    <!--    The <p> </p> tag creates a gab between each text's p tag wrapper.-->
+    <!--    To exclude the large breaks use the break tag <br>-->
+    <p>   Indented Line # 1     </p>
+    <p>   Indented Line # 2     </p>
+    <br>  Indented Line # 3 w/ breaktag
+    <br>  Indented Line # 4 w/ breaktag <br> <br>
+
+    <!--    How to Space Out Strings on the Same Line-->
+    <!--    If you were to space out text manually the adjusted text will still display text seperated by one space-->
+    <!--    Instead you must use &nbsp or Non-Breaking Space;-->
+    Item 1.     Item 2.         Item 3. <br>
+    Item 4. &nbsp &nbsp; &nbsp; Item5. &nbsp; &nbsp; Item 6. &nbsp; &nbsp; Item 7.
+
+    <!--    Header Tags allow you to Show Titles in Emphasis-->
+    <!--    Header Tags come in different sizes:-->
+    <br>
+    <h1> Header 1 </h1>
+    <br>
+    <h2> Header 2 </h2>
+    <br>
+    <h2> Header 3 </h2>
+    <br>
+    <h2> Header 4 </h2>
+
+    <p>   Enter your first Name: <input type="text" id="fname" onchange="grabName()"></p>
+
+
+
+</body>
+</html>
